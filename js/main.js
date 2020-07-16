@@ -207,7 +207,7 @@ function getVideosBasedOnChosenChampionship() {
 
                 if (filterData.length === 0) {
                     const yellowCard = document.createElement('img');
-                    yellowCard.src = '../images/referee.png';
+                    yellowCard.src = 'images/referee.png';
                     yellowCard.classList.add('referee');
                     const arrIsEmpty = document.createElement('p');
                     arrIsEmpty.innerHTML = 'Oups, it seems the ' + e.target.value + ' is on break...but check out other championships';
@@ -284,7 +284,7 @@ function getVideosBasedOnChosenTeam() {
 
                 if (filterData.length === 0) {
                     const yellowCard = document.createElement('img');
-                    yellowCard.src = '../images/referee.png';
+                    yellowCard.src = 'images/referee.png';
                     yellowCard.classList.add('referee');
 
                     const arrIsEmpty = document.createElement('p');
