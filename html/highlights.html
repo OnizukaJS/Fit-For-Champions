@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--Bootstrap Page-->
+    <!--Reset Page-->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <!--Google font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--CSS Page-->
+    <link rel="stylesheet" href="../css/highlights.css" />
+    <!--Small Screen-->
+    <link rel="stylesheet" media="screen" href="../css/small-screen-highlights.css" />
+    <!-- íconos fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>TEST</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="../images/Uefa_champions_league_logo.png" />
+</head>
+
+<body>
+    <header id="header" class="">
+        <div id="container-logo">
+            <a href="index.html"><img id="logo" src="../images/Uefa_champions_league (1).png"></a>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a class="titlesMenu" href="index.html"> Home</a></li>
+                <li><a class="titlesMenu" href="highlights.html"> Highlights</a></li>
+                <li><a class="titlesMenu" href="faq.html"> F.A.Q</a></li>
+
+                <div id="">
+                    <li id=""><a class="titlesMenu" href="#"><i id="container-signup-login"
+                                class="fas fa-user-circle"></i></li>
+
+                    <div id="signup-or-login">
+                        <span id="triangle-up"></span>
+                        <li><a class="subMenu" href="signup.html">Sign Up</a></li>
+                        <li><a class="subMenu" href="login.html">Login</a></li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="container-filter-bars">
+        <div id="filter-bar-championship" class="filter-bars">
+            <select name="championship" id="championship" class="selects-and-button">
+                <option hidden selected>Select a championship</option>
+                <option value="FRANCE: Ligue 1">Ligue 1</option>
+                <option value="SPAIN: La Liga">Liga</option>
+                <option value="ITALY: Serie A">Serie A</option>
+                <option value="ENGLAND: Premier League">Premier League</option>
+                <option value="GERMANY: Bundesliga">Bundesliga</option>
+            </select>
+        </div>
+
+        <div id="filter-bar-teams" class="filter-bars">
+            <select name="teams" id="teams" class="selects-and-button">
+                <option hidden selected>Select a team</option>
+                <optgroup id="frenchTeams" label="France">
+                    <option value="Amiens">Amiens</option>
+                    <option value="Angers">Angers</option>
+                    <option value="Bordeaux">Bordeaux</option>
+                    <option value="Brest">Brest</option>
+                    <option value="Dijon">Dijon</option>
+                    <option value="Lille">Lille</option>
+                    <option value="Lyon">Lyon</option>
+                    <option value="Marseille">Marseille</option>
+                    <option value="Metz">Metz</option>
+                    <option value="Monaco">Monaco</option>
+                    <option value="Montpellier">Montpellier</option>
+                    <option value="Nantes">Nantes</option>
+                    <option value="Nice">Nice</option>
+                    <option value="Nimes">Nîmes</option>
+                    <option value="PSG">Paris-SG</option>
+                    <option value="Reims">Reims</option>
+                    <option value="Rennes">Rennes</option>
+                    <option value="Saint-Etienne">Saint-Étienne</option>
+                    <option value="Strasbourg">Strasbourg</option>
+                    <option value="Toulouse">Toulouse</option>
+                </optgroup>
+
+                <optgroup id="spanishTeams" label="Spain">
+                    <option value="Alaves">Alavés</option>
+                    <option value="Atletico Madrid">Atletico Madrid</option>
+                    <option value="Atletico">Atlético</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Celta Vigo">Celta Vigo</option>
+                    <option value="Eibar">Eibar</option>
+                    <option value="Espanyol">Espanyol</option>
+                    <option value="Getafe">Getafe</option>
+                    <option value="Granada CF">Granada CF</option>
+                    <option value="Leganes">Leganés</option>
+                    <option value="Levante">Levante</option>
+                    <option value="Mallorca">Mallorca</option>
+                    <option value="Osasuna">Osasuna</option>
+                    <option value="Real Betis">Real Betis</option>
+                    <option value="Real Madrid">Real Madrid</option>
+                    <option value="Real Sociedad">Real Sociedad</option>
+                    <option value="Real Valladolid">Real Valladolid</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Villarreal ">Villareal</option>
+                </optgroup>
+
+                <optgroup id="italianTeams" label="Italia">
+                    <option hidden selected>Select a team</option>
+                    <option value="AC Milan">AC Milan</option>
+                    <option value="Atalanta">Atalanta</option>
+                    <option value="Bologna">Bologna</option>
+                    <option value="Brescia">Brescia</option>
+                    <option value="Cagliari">Cagliari</option>
+                    <option value="Genoa">Genoa</option>
+                    <option value="Fiorentina">Fiorentina</option>
+                    <option value="Inter Milan">Inter Milan</option>
+                    <option value="Juventus">Juventus</option>
+                    <option value="Lazio">Lazio</option>
+                    <option value="Lecce">Lecce</option>
+                    <option value="Napoli">Napoli</option>
+                    <option value="Parma">Parma</option>
+                    <option value="Roma">Roma</option>
+                    <option value="Sampdoria">Sampdoria</option>
+                    <option value="Sassuolo">Sassuolo</option>
+                    <option value="SPAL">SPAL</option>
+                    <option value="Torino">Torino</option>
+                    <option value="Udinese">Udinese</option>
+                    <option value="Verona">Verona</option>
+                </optgroup>
+
+                <optgroup id="englishTeams" label="England">
+                    <option hidden selected>Select a team</option>
+                    <option value="Arsenal">Arsenal</option>
+                    <option value="Aston Villa">Aston Villa</option>
+                    <option value="Bournemouth">Bournemouth</option>
+                    <option value="Brighton">Brighton</option>
+                    <option value="Burnley">Burnley</option>
+                    <option value="Chelsea">Chelsea</option>
+                    <option value="Crystal Palace">Crystal Palace</option>
+                    <option value="Everton">Everton</option>
+                    <option value="Leicester City">Leicester City</option>
+                    <option value="Liverpool">Liverpool</option>
+                    <option value="Manchester City">Manchester City</option>
+                    <option value="Manchester United">Manchester United</option>
+                    <option value="Newcastle United">Newcastle United</option>
+                    <option value="Norwich City">Norwich City</option>
+                    <option value="Sheffield United">Sheffield United</option>
+                    <option value="Southampton">Southampton</option>
+                    <option value="Tottenham Hotspur">Tottenham Hotspur</option>
+                    <option value="Watford">Watford</option>
+                    <option value="West Ham United">West Ham United</option>
+                    <option value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
+                </optgroup>
+                <optgroup id="germanTeams" label="Germany">
+                    <option hidden selected>Select a team</option>
+                    <option value="Bayern">Bayern</option>
+                    <option value="Dortmund">Dortmund</option>
+                    <option value="RB Leipzig">RB Leipzig</option>
+                    <option value="Mönchengladbach">Mönchengladbach</option>
+                    <option value="Leverkusen">Leverkusen</option>
+                    <option value="Hoffenheim">Hoffenheim</option>
+                    <option value="Wolfsbourg">Wolfsbourg</option>
+                    <option value="Fribourg">Fribourg</option>
+                    <option value="Eintracht">Eintracht</option>
+                    <option value="Herthat BSC">Herthat BSC</option>
+                    <option value="Union Berlin">Union Berlin</option>
+                    <option value="Schalke">Schalke</option>
+                    <option value="Mainz 05">Mainz 05</option>
+                    <option value="Cologne">Cologne</option>
+                    <option value="Augsbourg">Augsbourg</option>
+                    <option value="Werder">Werder</option>
+                    <option value="Düsseldorf">Düsseldorf</option>
+                    <option value="Paderborn 07">Paderborn 07</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <button id="container-reset-settings" type="reset" class="filter-bars selects-and-button"
+            onclick="location.reload();">Reset Settings <i class="fas fa-redo-alt"></i></button>
+
+    </div>
+    <section id="all-highlights" class="section-margin-top">
+        <img id="referee" src="../images/referee.png">
+    </section>
+
+    <footer id="" class="">
+
+        <div id="container-footer">
+            <p>Copyright © 2019 Be Alert!</p>
+
+            <div id="follow-us">
+                <p>Follow Us</p>
+                <ul id="social-networks">
+                    <li><a href="#"><i class="fab fa-facebook-f sn-icon"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram sn-icon"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube sn-icon"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--JS FILES-->
+    <script type="text/javascript" src="../js/display-menu.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+</body>
+
+</html>

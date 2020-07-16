@@ -1,0 +1,369 @@
+/*GENERAL SETTINGS*/
+body {
+    background: linear-gradient(180deg, rgba(12, 27, 51, 1) 0%, rgba(22, 48, 93, 1) 35%, rgba(49, 85, 147, 1) 100%);
+}
+
+/*------------------------INDEX-------------------------------*/
+
+/*HEADER*/
+#header {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C1B33;
+    border-bottom: 1px solid white;
+}
+
+#container-logo {
+    margin-left: 1em;
+}
+
+#logo {
+    width: 45px;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+#menu ul {
+    display: flex;
+}
+
+#menu ul li {
+    margin: 0 1em;
+    text-transform: uppercase;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/*MAIN SECTION*/
+#main-image-section {
+    margin-top: 5vh;
+}
+
+.main-image {
+    width: 100%;
+}
+
+#container-image-bar a {
+    display: none;
+}
+
+#main-title-div {
+    position: absolute;
+    top: 12%;
+    left: 3%;
+}
+
+.main-title {
+    color: white;
+    text-shadow: #ffffff 0px 0px 6px;
+    font: italic 30px/1.4em impact, sans-serif;
+
+}
+
+/*LAST HIGHLIGHTS SECTION*/
+#container-last-hightlights-videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.size-lasthighlights-vid {
+    width: 470px;
+    height: 352px;
+    overflow: hidden;
+    margin: 1em 1em;
+    border: 1px solid white;
+}
+
+/*LAST HIGHLIGHTS OF YOUR TEAM*/
+#container-last-hightlights-my-team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*FOOTER*/
+/*Footer*/
+footer {
+    position: sticky;
+    display: flex;
+    background-color: #0C1B33;
+    height: 15vh;
+    width: 100%;
+}
+
+#container-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+footer p {
+    color: white;
+}
+
+#follow-us {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li a {
+    color: #9FD7F5;
+    text-decoration: none;
+}
+
+.sn-icon {
+    margin: 0 0.3em;
+    font-size: 1.2em;
+}
+
+/*----------------------HIGHLIGHTS PAGE-------------------------*/
+#all-highlights {
+    margin-top: 4.6em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(180deg, rgba(12, 27, 51, 1) 0%, rgba(22, 48, 93, 1) 35%, rgba(49, 85, 147, 1) 100%);
+}
+
+.size-highlights-vid {
+    width: 480px;
+    height: 277px;
+    overflow: hidden;
+    margin: 1em 1em;
+    border: 1px solid white;
+}
+
+#container-filter-bars {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.filter-bars {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin: 1em 1em 0em 1em;
+}
+
+#championship {
+    text-decoration: none;
+    border-radius: 50px;
+    height: 6vh;
+    width: 165px;
+}
+
+#teams {
+    text-decoration: none;
+    border-radius: 50px;
+    height: 6vh;
+    width: 150px;
+}
+
+
+
+/*-----------------------------FAQ------------------------------*/
+#faq-section {
+    background: linear-gradient(180deg, rgba(12, 27, 51, 1) 0%, rgba(22, 48, 93, 1) 35%, rgba(49, 85, 147, 1) 100%);
+    margin-top: 4.6em;
+    height: 81vh;
+}
+
+#container-questions-answers {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em 0;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 15vh;
+    padding: 0 1em;
+    box-shadow: 0 0 6px white;
+}
+
+.questions-answers h2 {
+    font: italic 18px/1.4em impact, sans-serif;
+    color: white;
+    text-shadow: #ffffff 0px 0px 4px;
+    margin-bottom: 0.5em;
+}
+
+#question-messi {
+    display: none;
+}
+
+#image-messi-faq {
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+}
+
+/*------------------------SIGNUP PAGE-------------------------*/
+.signup,
+.login {
+    margin-top: 7em;
+    height: 75vh;
+}
+
+.form-wrapper {
+    display: flex;
+    height: 97%;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-form,
+.login-form {
+    display: flex;
+    width: 20em;
+    height: 72vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px #0C1B33;
+}
+
+#login-form {
+    height: 50vh;
+    display: none;
+}
+
+#container-form {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+#button-selection {
+    display: flex;
+    margin: auto;
+}
+
+.link-selection {
+    margin: 0 1em;
+}
+
+.separation-bar {
+    display: block;
+    border: 1px solid #0C1B33;
+}
+
+#container-form h2 {
+    font: 30px/1.4em impact, sans-serif;
+    color: #0C1B33;
+    margin: auto;
+}
+
+.container-inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Remove input style on focus*/
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.signup-form input,
+.signup-form select,
+.login-form input {
+    height: 5vh;
+    width: 100%;
+    margin-left: 0.5em;
+    border: none;
+    border-bottom: 1px solid #2D4F8B;
+}
+
+.signup-form button,
+.login-form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    width: 65%;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(270deg, rgba(12, 27, 51, 1) 0%, rgba(22, 48, 93, 1) 35%, rgba(49, 85, 147, 1) 100%);
+    color: white;
+    cursor: pointer;
+    margin: auto;
+    transition: 1s;
+}
+
+.signup-form button:hover,
+.login-form button:hover {
+    transform: scale(1.1);
+}
+
+.signup-form button img,
+.login-form button img {
+    width: 15%;
+    transition: 2s;
+    border: 1px solid transparent;
+}
+
+.signup-form button img:hover {
+    transform: translate(130px);
+    background-color: white;
+    border: 1px solid blue;
+}
+
+.signup-form button p,
+.login-form button p {
+    margin: 0 1.5em;
+    font-family: impact;
+    font-size: 23px;
+    white-space: nowrap;
+}
+
+.labels-form {
+    margin: 1em 0 0 1.8em;
+    font-family: impact;
+    font-size: 14px;
+    color: rgb(12, 27, 51);
+}
+
+/*---------------------------LOGIN PAGE----------------------------*/
+.login {
+    margin-top: 5em;
+    height: 75vh;
+}

@@ -1,0 +1,210 @@
+@media screen and (min-width: 500px) {
+    .form-wrapper {
+        top: 4em;
+    }
+
+    /*ANIMATION FLASHLIGHT*/
+    .flashLights {
+        display: block;
+    }
+
+    .flashLights-delay {
+        display: block;
+    }
+
+    .flashLights-1 {
+        top: 10em;
+        left: 1em;
+    }
+
+    .flashLights-2 {
+        top: 15em;
+    }
+
+    .flashLights-3 {
+        top: 19em;
+        left: 2em;
+    }
+
+    .flashLights-4 {
+        top: 22em;
+    }
+
+    .flashLights-5 {
+        top: 12em;
+        right: 1em;
+    }
+
+    .flashLights-6 {
+        top: 15em;
+        right: 3em;
+    }
+
+    .flashLights-7 {
+        top: 18em;
+        right: 0;
+    }
+
+    .flashLights-8 {
+        top: 22.5em;
+        right: 2em;
+    }
+
+    .flashLights-9 {
+        top: 10em;
+        left: 3em;
+    }
+
+    .flashLights-10 {
+        top: 13em;
+        left: 2em;
+    }
+
+    .flashLights-11 {
+        top: 18em;
+    }
+
+    .flashLights-12 {
+        top: 21em;
+        left: 2em;
+    }
+
+    .flashLights-13 {
+        top: 15em;
+        right: 0;
+    }
+
+    .flashLights-14 {
+        top: 13em;
+        right: 2em;
+    }
+
+    .flashLights-15 {
+        top: 19em;
+        right: 2em;
+    }
+
+    .flashLights-16 {
+        top: 22em;
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .flashLights {
+        display: none;
+    }
+
+    .flashLights-delay {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    #stadium-big-screen {
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 4em;
+    }
+
+    .form-wrapper {
+        height: 86%;
+    }
+
+    .signup {
+        height: 93.5vh;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    .flashLights {
+        display: block;
+        width: 3%;
+    }
+
+    .flashLights-delay {
+        display: block;
+        width: 3%;
+    }
+
+    /*ANIMATION FLASHLIGHT*/
+    .flashLights-1 {
+        top: 7em;
+        left: 1em;
+    }
+
+    .flashLights-2 {
+        top: 15em;
+    }
+
+    .flashLights-3 {
+        top: 8em;
+        left: 14em;
+    }
+
+    .flashLights-4 {
+        top: 10em;
+        left: 27em;
+    }
+
+    .flashLights-5 {
+        top: 6em;
+        right: 2em;
+    }
+
+    .flashLights-6 {
+        top: 16em;
+        right: 17em;
+    }
+
+    .flashLights-7 {
+        top: 10em;
+        right: 21em;
+    }
+
+    .flashLights-8 {
+        top: 18.5em;
+        right: 15em;
+    }
+
+    .flashLights-9 {
+        top: 18em;
+        left: 11em;
+    }
+
+    .flashLights-10 {
+        top: 16em;
+        left: 21em;
+    }
+
+    .flashLights-11 {
+        top: 18em;
+        left: 29em;
+    }
+
+    .flashLights-12 {
+        top: 11em;
+        left: 31em;
+    }
+
+    .flashLights-13 {
+        top: 9em;
+        right: 9em;
+    }
+
+    .flashLights-14 {
+        top: 13em;
+        right: 2em;
+    }
+
+    .flashLights-15 {
+        top: 18em;
+        right: 19em;
+    }
+
+    .flashLights-16 {
+        top: 17em;
+        right: 29em;
+    }
+}
