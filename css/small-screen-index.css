@@ -82,6 +82,13 @@
 }
 
 @media screen and (min-width: 800px) {
+    .flashLights {
+        display: none;
+    }
+
+    .flashLights-delay {
+        display: none;
+    }
 
     #container-image-bar {
         overflow: hidden;
