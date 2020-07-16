@@ -263,6 +263,7 @@ select:focus {
     cursor: pointer;
     margin: auto;
     transition: 1s;
+    box-shadow: 0 0 10px purple;
 }
 
 .login-form button:hover {
@@ -307,11 +308,16 @@ select:focus {
     }
 }
 
-.message-container p {
-
+.green-message {
     color: green;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 0;
+}
 
+.red-message {
+    color: red;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 0;
 }

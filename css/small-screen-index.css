@@ -1,12 +1,33 @@
 @media screen and (min-width: 500px) and (max-width: 799px) {
 
     /*MAIN PAGE*/
+    .flashLights {
+        display: none;
+    }
+
+    .flashLights-delay {
+        display: none;
+    }
+
     #stadium {
         display: none;
     }
 
+    #triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 13px solid white;
+        position: relative;
+        bottom: 1.8em;
+        left: 0;
+    }
+
     #main-image-section {
         margin-top: 0vh;
+        overflow: hidden;
+        height: 108vh;
     }
 
     .main-image {
@@ -41,9 +62,12 @@
         margin-top: 2em;
     }
 
+    .size-lasthighlights-vid {
+        width: 400px;
+    }
+
     #container-sections-highlights {
         position: relative;
-        top: 21em;
         background-color: white;
     }
 

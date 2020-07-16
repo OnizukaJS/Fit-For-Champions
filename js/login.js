@@ -45,7 +45,8 @@ class Login {
             message.classList.add("green-message");
         } else {
             // si el inicio de sesión no se ha realizado correctamente
-            message.innerHTML = 'el email o/y password son incorectos';
+            message.innerHTML = 'The email or the password are incorrect';
+            message.classList.add('red-message');
         }
 
         this.messageContainer.appendChild(message);

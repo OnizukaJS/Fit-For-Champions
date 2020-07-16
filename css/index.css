@@ -89,13 +89,128 @@ body {
     border-right: 8px solid transparent;
     border-bottom: 13px solid white;
     position: relative;
-    bottom: 1.8em;
+    bottom: 1.7em;
+    left: 1.9em;
 }
 
 /*MAIN SECTION*/
 #main-image-section {
     margin-top: 5vh;
     height: 82vh;
+}
+
+.flashLights {
+    width: 10%;
+    position: absolute;
+    animation: shiningStar 1s infinite;
+}
+
+.flashLights-delay {
+    width: 10%;
+    position: absolute;
+    animation: shiningStar 1s infinite;
+    animation-delay: .5s;
+}
+
+@keyframes shiningStar {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*ANIMATION FLASHLIGHT*/
+.flashLights {
+    display: block;
+}
+
+.flashLights-delay {
+    display: block;
+}
+
+.flashLights-1 {
+    top: 29em;
+}
+
+.flashLights-2 {
+    top: 26em;
+    left: 3em;
+}
+
+.flashLights-3 {
+    top: 28em;
+    left: 6em;
+}
+
+.flashLights-4 {
+    top: 22em;
+}
+
+.flashLights-5 {
+    top: 26em;
+    right: 1em;
+}
+
+.flashLights-6 {
+    top: 29em;
+    right: 6em;
+}
+
+.flashLights-7 {
+    top: 28em;
+    right: 0;
+}
+
+.flashLights-8 {
+    top: 22.5em;
+    right: 4em;
+}
+
+.flashLights-9 {
+    top: 22em;
+    left: 7em;
+}
+
+.flashLights-10 {
+    top: 26em;
+    left: 10em;
+}
+
+.flashLights-11 {
+    top: 21em;
+    left: 12em;
+}
+
+.flashLights-12 {
+    top: 21em;
+    left: 2em;
+}
+
+.flashLights-13 {
+    top: 26em;
+    right: 5em;
+}
+
+.flashLights-14 {
+    top: 29em;
+    right: 10em;
+}
+
+.flashLights-15 {
+    top: 21em;
+    right: 2em;
+}
+
+.flashLights-16 {
+    top: 22em;
+    right: 0;
 }
 
 #stadium {
@@ -138,7 +253,7 @@ body {
 
 /*LAST HIGHLIGHTS SECTION*/
 .football-highlights {
-    width: 45%;
+    width: 93%;
 }
 
 #last-highlights-videos {
@@ -147,8 +262,8 @@ body {
 
 .size-lasthighlights-vid {
     border-radius: 10px;
-    width: 400px;
-    height: 270px;
+    width: 338px;
+    height: 233px;
     overflow: hidden;
     margin: 1em 1em;
     border: 1px solid white;
@@ -156,12 +271,53 @@ body {
 }
 
 .h2-last-highlights {
-    font: 30px/1.4em impact, sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
     color: #0C1B33;
-    text-shadow: 0 8px 12px;
     text-align: center;
     width: 95%;
     margin: 1em 0 1em 0;
+}
+
+#container-button-see-more {
+    display: flex;
+    height: 18vh;
+}
+
+#link-button-see-more {
+    text-decoration: none;
+}
+
+.button-see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    width: 13em;
+    max-width: 13em;
+    border: none;
+    border-radius: 33px;
+    background: linear-gradient(270deg, rgba(12, 27, 51, 1) 0%, rgba(22, 48, 93, 1) 35%, rgba(49, 85, 147, 1) 100%);
+    color: white;
+    cursor: pointer;
+    margin: auto;
+    transition: 1s;
+    box-shadow: 0 0 10px purple;
+}
+
+.button-see-more p {
+    margin: 0 .5em;
+    font-family: impact;
+    font-size: 23px;
+    white-space: nowrap;
+}
+
+#logo-see-more {
+    animation: spin 5s linear infinite;
+    width: 15%;
+    transition: 2s;
+
+    border: 1px solid transparent;
 }
 
 /*LAST HIGHLIGHTS OF YOUR TEAM*/
@@ -172,22 +328,26 @@ body {
 }
 
 .style-text-video {
+    font-family: 'Bebas Neue', cursive;
     margin-left: 5%;
+    text-shadow: 0 0 1px #0C1B33;
 }
 
 #last-highlights-my-team button {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 6vh;
-    width: 80%;
+    height: 8vh;
+    width: 11em;
+    max-width: 11em;
     border: none;
-    border-radius: 20px;
+    border-radius: 33px;
     background: linear-gradient(270deg, rgba(12, 27, 51, 1) 0%, rgba(22, 48, 93, 1) 35%, rgba(49, 85, 147, 1) 100%);
     color: white;
     cursor: pointer;
     margin: auto;
     transition: 1s;
+    box-shadow: 0 0 10px purple;
 }
 
 #last-highlights-my-team img {
@@ -197,7 +357,7 @@ body {
 }
 
 #last-highlights-my-team button p {
-    margin: 0 1em;
+    margin: 0 .5em;
     font-family: impact;
     font-size: 23px;
     white-space: nowrap;
@@ -206,8 +366,13 @@ body {
 #container-button-messages {
     display: flex;
     height: 18vh;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+
+#container-button-messages a {
+    text-decoration: none;
+    margin: 0 .5em;
 }
 
 #container-last-hightlights-my-team {
@@ -216,7 +381,7 @@ body {
 
 #container-last-hightlights-my-team p {
     width: 82%;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -251,11 +416,11 @@ footer p {
 
 footer ul {
     display: flex;
-    margin: 0;
+    margin: .5em 0 0 0;
 }
 
 footer ul li a {
-    color: #9FD7F5;
+    color: white;
     text-decoration: none;
 }
 

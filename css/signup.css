@@ -181,6 +181,7 @@ select:focus {
     cursor: pointer;
     margin: auto;
     transition: 1s;
+    box-shadow: 0 0 10px purple;
 }
 
 .signup-form button:hover {

@@ -159,14 +159,12 @@ body {
 }
 
 .flashLights {
-    display: none;
     width: 10%;
     position: absolute;
     animation: shiningStar 1s infinite;
 }
 
 .flashLights-delay {
-    display: none;
     width: 10%;
     position: absolute;
     animation: shiningStar 1s infinite;
@@ -185,6 +183,93 @@ body {
     100% {
         opacity: 0;
     }
+}
+
+/*ANIMATION FLASHLIGHT*/
+.flashLights {
+    display: block;
+}
+
+.flashLights-delay {
+    display: block;
+}
+
+.flashLights-1 {
+    top: 22em;
+}
+
+.flashLights-2 {
+    top: 28em;
+}
+
+.flashLights-3 {
+    top: 31em;
+    left: 2em;
+}
+
+.flashLights-4 {
+    top: 26em;
+    left: 2em;
+}
+
+.flashLights-5 {
+    top: 26em;
+    right: 1em;
+}
+
+.flashLights-6 {
+    top: 26em;
+    right: 7em;
+}
+
+.flashLights-7 {
+    top: 30em;
+    right: 5em;
+}
+
+.flashLights-8 {
+    top: 28.5em;
+    right: 2em;
+}
+
+.flashLights-9 {
+    top: 27em;
+    left: 7em;
+}
+
+.flashLights-10 {
+    top: 29em;
+    left: 5em;
+}
+
+.flashLights-11 {
+    top: 27em;
+    left: 11em;
+}
+
+.flashLights-12 {
+    top: 21.5em;
+    left: 2em;
+}
+
+.flashLights-13 {
+    top: 31em;
+    right: 0;
+}
+
+.flashLights-14 {
+    top: 25em;
+    right: 4em;
+}
+
+.flashLights-15 {
+    top: 31em;
+    right: 8em;
+}
+
+.flashLights-16 {
+    top: 30em;
+    left: 8em;
 }
 
 /*FOOTER*/

@@ -27,7 +27,7 @@ function getVideosLastHighlights() {
                 const divContainer = document.createElement('div');
 
                 const titleElt = document.createElement('p');
-                titleElt.innerHTML = `<u>Teams:</u> ${elmt.title} <br> <u>Date:</u> ${dateFormated}`;
+                titleElt.innerHTML = `Teams: ${elmt.title} <br> Date: ${dateFormated}`;
                 titleElt.classList.add('style-text-video');
 
 
@@ -64,12 +64,23 @@ function getVideosLastHighlights() {
                 for (let i = 0; i < 3; i++) {
                     let elmt = filterData[i];
 
+                    let date = new Date(`${elmt.date}`);
+                    let dateFormated = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();
+
+                    const divContainer = document.createElement('div');
+
+                    const titleElt = document.createElement('p');
+                    titleElt.innerHTML = `Teams: ${elmt.title} <br> Date: ${dateFormated}`;
+                    titleElt.classList.add('style-text-video');
+
 
                     const embedVid = document.createElement('div');
                     embedVid.innerHTML = `${elmt.embed}`;
                     embedVid.classList.add('size-lasthighlights-vid');
 
-                    lastHighlightsMyTeam.appendChild(embedVid);
+                    divContainer.appendChild(titleElt);
+                    divContainer.appendChild(embedVid);
+                    lastHighlightsMyTeam.appendChild(divContainer);
 
                 }
             }
