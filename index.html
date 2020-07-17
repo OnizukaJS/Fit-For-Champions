@@ -32,14 +32,14 @@
             <a href="index.html"><img id="logo" src="images/Uefa_champions_league (1).png"></a>
         </div>
         <nav id="menu">
-            <ul>
+            <ul id="menu-big-screen">
                 <li><a class="titlesMenu" href="index.html"> Home</a></li>
                 <li><a class="titlesMenu" href="highlights.html"> Highlights</a></li>
                 <li><a class="titlesMenu" href="faq.html"> F.A.Q</a></li>
 
                 <div id="">
-                    <li id=""><a class="titlesMenu" href="#"><i id="container-signup-login"
-                                class="fas fa-user-circle"></i></a>
+                    <li id=""><button type="button" class="titlesMenu" href="#"><i id="container-signup-login"
+                                class="fas fa-user-circle"></i></button></a>
                     </li>
 
                     <div id="signup-or-login">
@@ -50,6 +50,28 @@
                 </div>
 
             </ul>
+
+            <div id="menu-small-screen">
+                <button type="button" id="hamburgerIcon" href="#"><i class="fas fa-bars"></i></button>
+
+                <ul id="menuResp">
+                    <a href="index.html">
+                        <li class="menuResp">HOME</li>
+                    </a>
+                    <a href="highlights.html">
+                        <li class="menuResp">HIGHLIGHTS</li>
+                    </a>
+                    <a href="faq.html">
+                        <li class="menuResp">F.A.Q</li>
+                    </a>
+                    <a href="signup.html">
+                        <li class="menuResp">SIGN UP</li>
+                    </a>
+                    <a href="login.html">
+                        <li class="menuResp">LOGIN</li>
+                    </a>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -119,7 +141,9 @@
     <div id="container-sections-highlights">
         <section id="last-highlights-videos" class="settings-sections-index">
             <img class="football-highlights" src="images/highlights1.png">
+
             <h2 class="h2-last-highlights">Last highlights of the day</h2>
+
             <div id="container-last-hightlights-videos" class="containers-last-highlights">
 
             </div>
@@ -178,6 +202,7 @@
     </footer>
 
     <!--JS FILES-->
+    <script type="text/javascript" src="js/hamburger-menu.js"></script>
     <script type="text/javascript" src="js/login.js"></script>
     <script type="text/javascript" src="js/display-menu.js"></script>
     <script type="text/javascript" src="js/main.js"></script>

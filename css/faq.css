@@ -33,12 +33,46 @@ body {
     }
 }
 
-#menu {
-    margin-right: 2em;
+/*Hamburger Menu*/
+#hamburgerIcon {
+    font-size: 25px;
+    cursor: pointer;
 }
 
-#menu ul {
-    display: flex;
+#menuResp {
+    display: none;
+}
+
+#menuResp a {
+    padding: .5em;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+.display-menu-resp {
+    position: absolute;
+    height: 20vh;
+    top: 5em;
+    right: 0em;
+    background-color: #0C1B33;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menuResp {
+    color: white;
+}
+
+/*Menu-big screen*/
+#menu-big-screen {
+    display: none;
+}
+
+#menu {
+    margin-right: 2em;
 }
 
 #menu ul li {
@@ -50,8 +84,12 @@ body {
 .titlesMenu {
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    border: none;
+    background: transparent;
+    font-size: 17px;
     font-weight: 300;
+    cursor: pointer;
+    outline: none;
 }
 
 .titlesMenu:hover {
@@ -63,8 +101,8 @@ body {
     background-color: white;
     text-align: center;
     position: absolute;
-    right: .5em;
-    top: 4.5em;
+    right: 1em;
+    top: 4.3em;
     width: 93px;
     border-radius: 15px;
     display: none;
@@ -88,7 +126,8 @@ body {
     border-right: 8px solid transparent;
     border-bottom: 13px solid white;
     position: relative;
-    bottom: 2em;
+    bottom: 1.9em;
+    left: 2em;
 }
 
 /*-----------------------------FAQ------------------------------*/
@@ -126,7 +165,7 @@ body {
     width: 80%;
     border: 1px solid white;
     border-radius: 10px;
-    height: 11vh;
+    height: 15vh;
     padding: 0 1em;
     box-shadow: 0 0 6px white;
 }
@@ -140,6 +179,7 @@ body {
 
 .answers {
     color: white;
+    font-size: 13px;
 }
 
 #question-messi {
@@ -272,6 +312,24 @@ body {
     left: 8em;
 }
 
+.flashLights-17 {
+    top: 23em;
+    right: 0;
+}
+
+.flashLights-18 {
+    top: 32em;
+}
+
+.flashLights-19 {
+    top: 24em;
+    right: 8em;
+}
+
+.flashLights-20 {
+    top: 24em;
+}
+
 /*FOOTER*/
 footer {
     position: fixed;
@@ -308,7 +366,7 @@ footer ul {
 }
 
 footer ul li a {
-    color: #9FD7F5;
+    color: white;
     text-decoration: none;
 }
 

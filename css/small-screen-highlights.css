@@ -1,5 +1,11 @@
 @media screen and (min-width: 500px) {
 
+    /*Hamburger menu*/
+    .display-menu-resp {
+        height: 24vh;
+        top: 4.3em;
+    }
+
     .size-highlights-vid {
         width: 450px;
         height: 297px;
@@ -16,6 +22,27 @@
         margin-top: 1em;
         position: relative;
         right: 5.5em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    /*Hamburger menu*/
+    #hamburgerIcon {
+        display: none;
+    }
+
+    #menuResp {
+        display: none !important;
+    }
+
+    #menu-big-screen {
+        display: flex;
+    }
+
+    #triangle-up {
+        bottom: 1.8em;
+        left: 0;
     }
 }
 

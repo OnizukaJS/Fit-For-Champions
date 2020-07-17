@@ -1,4 +1,11 @@
 @media screen and (min-width: 500px) {
+
+    /*Hamburger menu*/
+    .display-menu-resp {
+        height: 24vh;
+        top: 4.3em;
+    }
+
     #stadium {
         bottom: 0;
     }
@@ -16,7 +23,7 @@
     }
 
     #image-messi-faq {
-        width: 125%;
+        width: 102%;
     }
 
     /*ANIMATION FLASHLIGHT*/
@@ -246,6 +253,31 @@
 }
 
 @media screen and (min-width: 800px) {
+
+    /*Hamburger menu*/
+    #hamburgerIcon {
+        display: none;
+    }
+
+    #menuResp {
+        display: none !important;
+    }
+
+    #menu-big-screen {
+        display: flex;
+    }
+
+    #triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 13px solid white;
+        position: relative;
+        bottom: 1.8em;
+        left: 0;
+    }
+
     .questions-answers {
         right: 15em;
     }
@@ -257,6 +289,10 @@
         position: absolute;
         width: 100%;
         bottom: 4em;
+    }
+
+    .answers {
+        font-size: 15px;
     }
 }
 
@@ -388,5 +424,9 @@
     .flashLights-18 {
         top: 15em;
         left: 74em;
+    }
+
+    .answers {
+        font-size: 17px;
     }
 }

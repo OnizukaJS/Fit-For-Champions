@@ -30,14 +30,14 @@
             <a href="index.html"><img id="logo" src="images/Uefa_champions_league (1).png"></a>
         </div>
         <nav id="menu">
-            <ul>
+            <ul id="menu-big-screen">
                 <li><a class="titlesMenu" href="index.html"> Home</a></li>
                 <li><a class="titlesMenu" href="highlights.html"> Highlights</a></li>
                 <li><a class="titlesMenu" href="faq.html"> F.A.Q</a></li>
 
                 <div id="">
-                    <li id=""><a class="titlesMenu" href="#"><i id="container-signup-login"
-                                class="fas fa-user-circle"></i></li>
+                    <li id=""><button type="button" class="titlesMenu" href="#"><i id="container-signup-login"
+                                class="fas fa-user-circle"></i></button></li>
 
                     <div id="signup-or-login">
                         <span id="triangle-up"></span>
@@ -46,6 +46,28 @@
                     </div>
                 </div>
             </ul>
+
+            <div id="menu-small-screen">
+                <button type="button" id="hamburgerIcon" href="#"><i class="fas fa-bars"></i></button>
+
+                <ul id="menuResp">
+                    <a href="index.html">
+                        <li class="menuResp">HOME</li>
+                    </a>
+                    <a href="highlights.html">
+                        <li class="menuResp">HIGHLIGHTS</li>
+                    </a>
+                    <a href="faq.html">
+                        <li class="menuResp">F.A.Q</li>
+                    </a>
+                    <a href="signup.html">
+                        <li class="menuResp">SIGN UP</li>
+                    </a>
+                    <a href="login.html">
+                        <li class="menuResp">LOGIN</li>
+                    </a>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -79,37 +101,34 @@
         <div id="container-questions-answers">
             <div id="question-answer-1" class="questions-answers">
                 <div id="question-1" class="questions">
-                    <h2>What can I do here?</h2>
+                    <h2>What is this website for?</h2>
                 </div>
                 <div id="answer-1" class="answers">
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a
-                        page
-                        when
-                        looking at its layout.</p>
+                    <p>Don't you want to pay all the channels to be able to watch football?</p>
+                    <p>Tired of always looking for match summaries on the internet?</p>
+                    <p>This website is made for you! You will be able to find all summaries as well as highlights in one
+                        place!</p>
                 </div>
             </div>
 
             <div id="question-answer-2" class="questions-answers">
                 <div id="question-2" class="questions">
-                    <h2>How can I suscribe?</h2>
+                    <h2>What do I have to do?</h2>
                 </div>
                 <div id="answer-2" class="answers">
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a
-                        page
-                        when
-                        looking at its layout.</p>
+                    <p>Nothing! You can enjoy this website without doing anything.</p>
+                    <p>If you want a personalized page, you can register and thus see the summaries of the matches of
+                        your favorite team</p>
                 </div>
             </div>
 
             <div id="question-answer-3" class="questions-answers">
                 <div id="question-3" class="questions">
-                    <h2>How can I filter my videos?</h2>
+                    <h2>How can I see videos of a particular team?</h2>
                 </div>
                 <div id="answer-3" class="answers">
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a
-                        page
-                        when
-                        looking at its layout.</p>
+                    <p>If you go to the "Highlights" page, it is possible to filter by championship and / or by team in
+                        order to see only the videos that interest you</p>
                 </div>
             </div>
         </div>
@@ -139,6 +158,7 @@
     </footer>
 
     <!--JS FILES-->
+    <script type="text/javascript" src="js/hamburger-menu.js"></script>
     <script type="text/javascript" src="js/display-menu.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>

@@ -1,4 +1,11 @@
 @media screen and (min-width: 500px) {
+
+    /*Hamburger menu*/
+    .display-menu-resp {
+        height: 24vh;
+        top: 4.3em;
+    }
+
     #stadium {
         bottom: 0;
     }
@@ -102,6 +109,33 @@
 
     .flashLights-delay {
         display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    /*Hamburger menu*/
+    #hamburgerIcon {
+        display: none;
+    }
+
+    #menuResp {
+        display: none !important;
+    }
+
+    #menu-big-screen {
+        display: flex;
+    }
+
+    #triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 13px solid white;
+        position: relative;
+        bottom: 1.8em;
+        left: 0;
     }
 }
 
